@@ -1,0 +1,1 @@
+C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\HostFileUWP.csproj;x86

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>2b6b6172-2bc4-4e5a-ae55-ab93e83743c7</PackageIdentityName>
     <PackageIdentityPublisher>CN=Troll</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Projekty C#\Projekt_PSOiR\HostFileUWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7BA916C000956A8AB57997E2C31DB64F78D5334A5D14F6EDA8F691B33FEF357A</RegisteredManifestChecksum>
+    <LayoutDir>D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>92CD483C74CAC43AA5A88305A32DDEE5618EC68A5CC0D94AAC32A062CC170ED0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2b6b6172-2bc4-4e5a-ae55-ab93e83743c7_1.0.0.0_x86__zabgzxwve6j64</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2b6b6172-2bc4-4e5a-ae55-ab93e83743c7_zabgzxwve6j64!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2b6b6172-2bc4-4e5a-ae55-ab93e83743c7</RegisteredPackageID>
@@ -27,20 +27,60 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-17T11:24:30.490</Modified>
+      <Modified>2021-01-20T20:37:44.097</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\HostFileUWP.exe">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\HostFileUWP.exe">
       <PackagePath>entrypoint\HostFileUWP.exe</PackagePath>
-      <Modified>2021-01-17T11:24:29.698</Modified>
+      <Modified>2021-01-20T20:37:41.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-10-05T21:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-10-05T21:30:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\dnsclient\1.3.1\lib\netstandard2.0\DnsClient.dll">
       <PackagePath>DnsClient.dll</PackagePath>
       <Modified>2020-03-31T19:28:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2020-08-12T20:29:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.parsers\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2020-08-12T20:29:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.uwp\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2020-08-12T20:29:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.uwp.ui\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2020-08-12T20:30:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2020-08-12T20:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2020-08-12T20:30:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2019-04-26T23:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2019-04-26T23:06:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\mongodb.bson\2.11.5\lib\netstandard2.0\MongoDB.Bson.dll">
       <PackagePath>MongoDB.Bson.dll</PackagePath>
@@ -70,6 +110,10 @@
       <PackagePath>MongoDB.Libmongocrypt.dll</PackagePath>
       <Modified>2019-11-13T19:35:30.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T11:57:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T18:16:04.000</Modified>
@@ -78,75 +122,87 @@
       <PackagePath>SharpCompress.dll</PackagePath>
       <Modified>2019-02-27T11:59:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2018-09-18T17:38:10.000</Modified>
+      <Modified>2020-02-19T09:05:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2020-04-02T17:44:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2020-04-02T17:44:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Troll\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2020-08-12T20:07:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-01-14T19:09:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-01-12T19:55:54.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-01-12T19:55:54.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\HostFileUWP.xr.xml">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\HostFileUWP.xr.xml">
       <PackagePath>HostFileUWP.xr.xml</PackagePath>
-      <Modified>2021-01-17T11:24:29.528</Modified>
+      <Modified>2021-01-20T19:47:51.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-17T11:24:29.552</Modified>
+      <Modified>2021-01-20T20:37:40.921</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-17T11:24:29.552</Modified>
+      <Modified>2021-01-20T20:37:40.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-15T22:36:01.221</Modified>
+      <Modified>2021-01-20T19:47:54.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\bin\x86\Debug\Core\HostFileUWP.exe">
+    <AppxPackagedFile Include="D:\Projekty C#\Projekt_PSOiR\HostFileUWP\bin\x86\Debug\Core\HostFileUWP.exe">
       <PackagePath>HostFileUWP.exe</PackagePath>
-      <Modified>2021-01-17T11:24:30.476</Modified>
+      <Modified>2021-01-20T20:37:44.091</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

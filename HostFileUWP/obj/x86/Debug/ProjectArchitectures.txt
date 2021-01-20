@@ -1,1 +1,1 @@
-C:\Users\Troll\source\repos\HostFileUWP\HostFileUWP\HostFileUWP.csproj;x86
+D:\Projekty C#\Projekt_PSOiR\HostFileUWP\HostFileUWP.csproj;x86

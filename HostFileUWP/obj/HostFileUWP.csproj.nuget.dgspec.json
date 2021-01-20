@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Troll\\source\\repos\\HostFileUWP\\HostFileUWP\\HostFileUWP.csproj": {}
+    "D:\\Projekty C#\\Projekt_PSOiR\\HostFileUWP\\HostFileUWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Troll\\source\\repos\\HostFileUWP\\HostFileUWP\\HostFileUWP.csproj": {
+    "D:\\Projekty C#\\Projekt_PSOiR\\HostFileUWP\\HostFileUWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Troll\\source\\repos\\HostFileUWP\\HostFileUWP\\HostFileUWP.csproj",
+        "projectUniqueName": "D:\\Projekty C#\\Projekt_PSOiR\\HostFileUWP\\HostFileUWP.csproj",
         "projectName": "HostFileUWP",
-        "projectPath": "C:\\Users\\Troll\\source\\repos\\HostFileUWP\\HostFileUWP\\HostFileUWP.csproj",
+        "projectPath": "D:\\Projekty C#\\Projekt_PSOiR\\HostFileUWP\\HostFileUWP.csproj",
         "packagesPath": "C:\\Users\\Troll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Troll\\source\\repos\\HostFileUWP\\HostFileUWP\\obj\\",
+        "outputPath": "D:\\Projekty C#\\Projekt_PSOiR\\HostFileUWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -40,6 +40,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[6.1.1, )"
             },
             "MongoDB.Driver": {
               "target": "Package",

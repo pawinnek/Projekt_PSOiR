@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -23,30 +24,44 @@ namespace HostFileUWP
     public sealed partial class MainPage : Page
     {
 
-        public int IloscPlikowDoDodania;
+        public int filesQtyToAdd;
+        Master masterThread;
 
-        
-
+        string client;
 
         public MainPage()
         {
+            masterThread = new Master();
             this.InitializeComponent();
         }
 
         private void male_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (client != null)
+                for (int i = 0; i < filesQtyToAdd; i++)
+                    masterThread.Tasks.Enqueue(new Tuple<string, string>("male", client));
         }
 
         private void duze_Click(object sender, RoutedEventArgs e)
         {
-
+            if (client != null)
+                for (int i = 0; i < filesQtyToAdd; i++)
+                    masterThread.Tasks.Enqueue(new Tuple<string, string>("duze", client));
         }
 
         private void srednie_Click(object sender, RoutedEventArgs e)
         {
-
+            if (client != null)
+                for(int i = 0; i < filesQtyToAdd; i ++)
+                    masterThread.Tasks.Enqueue(new Tuple<string, string>("srednie", client));
         }
 
+        private void SwitchcState_Click(object sender, RoutedEventArgs e)
+        {
+            if (masterThread.State() == ThreadState.Running)
+                masterThread.Stop();
+            else
+                masterThread.Run();
+        }
     }
 }

@@ -13,6 +13,8 @@ namespace HostFileUWP
         //static string sredniePath = @"C:\Users\Troll\Downloads\pl-dict.oxt";
         //static string duzePath = @"C:\Users\Troll\Downloads\drugsCom_raw.zip";
 
+        public string[] conn = { "127.17.0.2:8089", "127.17.0.3:8091", "127.17.0.3:8093", "127.17.0.4:8095", "127.17.0.5:8097" };
+
         public string[] guids = { "7bbc6a1d-24af-4394-853d-76f2a6585cb8", "c7b89c4f-2e5a-4ba3-a2a7-0aba4d731945", "55d28c56-998b-4766-b4e9-b657ab2015a8", "e903d8c7-5195-4361-8816-380c2eec4104", "e1d55efb-acb2-489e-8d37-a17d8325edbd" };
 
         public Queue<Tuple<string, string>> Tasks = new Queue<Tuple<string, string>>(); // size, OwnerId
@@ -42,7 +44,7 @@ namespace HostFileUWP
             //Master master = new Master();
             for (int i = 0; i < 5; i++)
             {
-                var worker = new Worker(guids[i]);
+                var worker = new Worker("mongodb://" + conn[i] + "/?compressors=zlib&readPreference=primary&gssapiServiceName=mongodb&appname=MongoDB%20Compass&ssl=false");
                 AddWorker(worker);
             }
         }

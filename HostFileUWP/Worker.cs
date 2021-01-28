@@ -20,7 +20,7 @@ namespace HostFileUWP
 
         public bool isBusy;
 
-        string connectionString = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
+        string connectionString; // = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 
 
         public Thread thread;
@@ -53,10 +53,12 @@ namespace HostFileUWP
             collection.InsertOne(document);
         }
 
-        public Worker(string guid)
+        public Worker(string conn)
         {
+            connectionString = conn;
             //ThreadStart ts = new ThreadStart(() => CallToArms());
             //thread = new Thread(ts);
+            
         }
 
         public bool Run(string size, string guid)
@@ -78,7 +80,7 @@ namespace HostFileUWP
             zzz = false;
         }
 
-        public void Run()
+        private void Run()
         {
             zzz = true;
             if (thread == null || thread.ThreadState != ThreadState.Running)

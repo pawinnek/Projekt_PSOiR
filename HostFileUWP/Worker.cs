@@ -47,8 +47,8 @@ namespace HostFileUWP
 
             // Część odpowiedzialna za wysłanie pliku do bazy
             var fileGuid = System.Guid.NewGuid();
-            var ownerGuuid = System.Guid.Parse(owner);
-            BsonDocument document = new BsonDocument { { "guid", MongoDB.Bson.GuidConverter.ToBytes(fileGuid, GuidRepresentation.Standard) } , { "Owner", MongoDB.Bson.GuidConverter.ToBytes(fileGuid, GuidRepresentation.Standard) } ,{ "file", file }
+            var ownerGuid = System.Guid.Parse(owner);
+            BsonDocument document = new BsonDocument { { "guid", MongoDB.Bson.GuidConverter.ToBytes(fileGuid, GuidRepresentation.Standard) } , { "Owner", MongoDB.Bson.GuidConverter.ToBytes(ownerGuid, GuidRepresentation.Standard) } ,{ "file", file }
             };
             collection.InsertOne(document);
         }
